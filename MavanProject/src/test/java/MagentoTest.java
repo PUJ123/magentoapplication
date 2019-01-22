@@ -16,7 +16,7 @@ public class MagentoTest
 	{
 		String url = "http://www.magento.com";
 		
-		WebDriver driver = new FirefoxDriver();
+		WebDriver driver = new FireFoxDriver();
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
 		driver.get(url);
